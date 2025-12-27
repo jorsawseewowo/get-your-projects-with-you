@@ -1,0 +1,11 @@
+.about {
+    background: black;
+    border-radius: 0.5rem;
+}
+.card {
+    border-bottom: 8px solid goldenrod;
+}
+.img-fluid {
+    height: 700px;
+    width: 700px;
+}

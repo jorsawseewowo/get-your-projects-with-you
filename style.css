@@ -1,11 +1,7 @@
-.about {
+html {
+    scroll-behavior: smooth;
+}
+body {
     background: black;
-    border-radius: 0.5rem;
-}
-.card {
-    border-bottom: 8px solid goldenrod;
-}
-.img-fluid {
-    height: 700px;
-    width: 700px;
+    font-family: "Baloo Tamma 2", cursive;
 }

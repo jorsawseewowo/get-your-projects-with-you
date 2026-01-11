@@ -1,53 +1,78 @@
-<html>
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
-        <link rel="stylesheet" href="style.css" />
-        <script src="https://kit.fontawesome.com/996973c893.js"></script>
-        <link
-            href="https://fonts.googleapis.com/css2? family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wgth@200;400;600;900&display=swap"
-            rel="stylesheet" />
-        <title>Profile</title>
-    </head>
-    <body>
-        <div id="projects" class="container mt-5 pt-5">
-            <h1 class="text-warning mb-3 pb-2">My Auras</h1>
-            <div class="row">
-                <div class="col-4 mb-5">
-                    <div class="card" style="width: 18rem;">
-                        <img src="sols.png" class="card-img-top" style="height: 13rem;" alt="..." />
-                        <div class="card-body">
-                            <h5 class="card-title">Roll Different Auras</h5>
-                            <p class="card-text">
-                                Luminosity has a 1.2b chance of rolling
-                            </p>
-                            <a href="#" class="btn btn-warning">See Aura</a>
-                        </div>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/996973c893.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2? family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wgth@200;400;600;900&display=swap"
+        rel="stylesheet" />
+    <title>Profile</title>
+</head>
+
+<body>
+    <div class="container navigation pt-3">
+        <div class="row">
+            <div class="col-6 d-flex justify-content-start align-items-center">
+                <i class="fa fa-spinner fa-spin fa-3x fa-fw text-warning pb-3"></i>
+                <h5 class="d-inline pl-2 text-white">Sol's RNG</h5>
+            </div>
+            <hr>
+            <div class="col-6 pt-2">
+                <div class="row text-center p-0 d-flex justify-content-end align-items-center">
+                    <div class="col-3">
+                        <a href="#about" class="text-white navigation-link">About</a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#auras/items" class="text-white navigation-link">Auras/ Items</a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#biomes/weather" class="text-white navigation-link">Biomes/ Weather</a>
+                    </div>
+                    <div class="col-3">
+                        <a href="#social-media" class="text-white navigation-link">Social Media</a>
                     </div>
                 </div>
-                <div class="col-4 mb-5">
-                    <div class="card" style="width: 18rem;">
-                        <img src="sov.webp" class="card-img-top img-fluid" alt="..." style="height: 13rem;" />
-                        <div class="card-body">
-                            <h5 class="card-title">Rolling Game</h5>
-                            <p class="card-text">
-                                Sovereign has a 750m chance of rolling
-                            </p>
-                            <a href="#" class="btn btn-warning">See Aura</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-4 mb-5">
-                    <div class="card" style="width: 18rem;">
-                        <img src="aegis.webp" class="card-img-top img-fluid" alt="..." style="height: 13rem;" />
-                        <div class="card-body">
-                            <h5 class="card-title">Gambling Game</h5>
-                            <p class="card-text">
-                                Aegis has a 850m chance of rolling
-                            </p>
-                            <a href="#" class="btn btn-warning">See Aura</a>
             </div>
         </div>
-    </body> 
+    </div>
+    <div class="container mt-5 text-white">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="mb-3">What is Sol's RNG?</h2>
+                <p> Sol's RNG is a game centered around the Roll button at the bottom of your screen, the main purpose of the game is
+                testing your luck and going for the rare auras this game has to offer. Each roll is a chance to obtain one of countless
+                auras, with some being far rarer than others.
+                
+                The goal of the game is to collect auras. To improve your chances, you can acquire gauntlets and potions, which can be
+                earned or crafted as you progress. Show off your luck with the auras you collect, or use them to craft even rarer ones.
+ </p>
+            </div>
+        </div>
+        <hr class="bg-light">
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <h4>Any Questions?</h4>
+                <p>Please let us know!</p> <input type="text" class="form-control mb-2"
+                    placeholder="Your Question"> <button class="btn btn-warning">Submit</button>
+            </div>
+            <div class="col-md-6">
+                <h4>When do we update?</h4>
+                <ul class="list-unstyled">
+                    <li>We update the game Bi-weekly and have 2x luck events after the update! So be sure to check it out!</li>
+                </ul>
+            </div>
+            </div>
+            <hr class="bg-light">
+            <div class="row mt-4">
+                <div class="col-md-6">
+                    <h4>Join The Discord!</h4>
+                    <p><a href="https://discord.gg/solsrng">https://discord.gg/solsrng</a></p>
+                </div>
+            </div>
+            </div>
+    <script src="script.js"></script>
+</body>
+
 </html>

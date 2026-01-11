@@ -21,8 +21,16 @@ body {
     transition: 0.5s ease;
 }
 
-.container {
+#sol1 {
     background-image: url(sols.webp);
+    background-size: cover;
+    background-position: center;
+    min-height: 10vh;
+    min-width: 100vw;
+    padding-top: 70px;
+}
+#sol2{
+    background-image: url(sols2.avif);
     background-size: cover;
     background-position: center;
     min-height: 10vh;
